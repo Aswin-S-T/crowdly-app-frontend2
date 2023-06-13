@@ -14,7 +14,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
       navigationOptions: {
         tabBarLabel: "Home",
         tabBarIcon: (tabInfo) => (
-          <Ionicons name="md-home" size={25} color={"darkcyan"} />
+          <Ionicons name="md-home" size={25} color={"#37CDD9"} />
         ),
       },
     },
@@ -26,7 +26,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
           <Ionicons
             name="md-person-circle-outline"
             size={25}
-            color={"darkcyan"}
+            color={"#37CDD9"}
           />
         ),
       },
@@ -36,7 +36,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
       navigationOptions: {
         tabBarLabel: "Setting",
         tabBarIcon: (tabInfo) => (
-          <Ionicons name="md-settings-outline" size={25} color={"darkcyan"} />
+          <Ionicons name="md-settings-outline" size={25} color={"#37CDD9"} />
         ),
       },
     },
@@ -48,7 +48,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
           <Ionicons
             name="md-person-circle-outline"
             size={25}
-            color={"darkcyan"}
+            color={"#37CDD9"}
           />
         ),
       },
@@ -57,7 +57,7 @@ const TabNavigator = createMaterialBottomTabNavigator(
 
   {
     initialRouteName: "Home",
-    barStyle: { backgroundColor: "#fff", color: "darycyan", padding: 8 },
+    barStyle: { backgroundColor: "#fff", color: "#37CDD9", padding: 8 },
   }
 );
 
